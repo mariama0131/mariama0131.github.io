@@ -1,40 +1,40 @@
 body {
-	background-color: #f1f1f9;
+	background-color: #E6F7F7;
 	margin: 0;
   	padding: 0;
 }
 
 
 .sidebar h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 350%;
-  color: #d3d3da;
+  font-family: "Baskerville", serif;
+  font-size: 200%;
+  color: #50649D;
   display: block;
   padding: 16px;
   padding-top: 0;
-  margin:0;
+  margin:10;
   font-weight: 600;
   text-align: center;
 }
 
 .sidebar h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 150%;
-  color: #d3d3da;
+  font-family: "Baskerville", serif;
+  font-size: 250%;
+  color: #D4E5F9;
   display: block;
   padding: 16px;
-  margin: 0;
+  margin: 10;
   font-weight: 400;
   font-style: italic;
   text-align: center;
 }
 
 .sidebar h3{
-  font-family: "Playfair Display", serif;
-  color: #d3d3da;
+  font-family: "Baskerville", serif;
+  color: #50649D;
   display: block;
   padding: 16px;
-  margin: 0;
+  margin: 10;
   font-weight: 400;
   text-align: center;
 }
@@ -43,69 +43,30 @@ body {
   padding-top: 20px;
 }
 
-#headshot {
-  padding: 16px;
-  padding-top: 25px;
-  display: inline-block;
-  margin-left: 0px;
-  float: right;
-}
-
-#headshot-pic {
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.blurb{
-  padding-top: 75px;
-  padding-left: 25px;
+.content pre {
+  font-family: "Baskerville", serif;
+  color: #253068
 }
 
 .content h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Baskerville", serif;
+  color: #50649D
 }
 
 .content h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Baskerville", serif;
 }
-
 
 .content p {
-  font-family: "Roboto", serif;
-  font-size: 130%;
-  
-}
-
-.content li {
-  font-family: "Roboto", serif;
-  font-size: 130%;  
-}
-
-.long li {
-  margin-bottom: 15px;  
-}
-
-.content p + ul {
-  margin-top: -15px;
+  font-family: "Baskerville", serif;
+  color: #253068
 }
 
 .content a {
-  color: #4c4a6c;
+  color: #50649D;
   font-weight: 600;
   text-decoration: none;
 }
-
-#footer p {
-  font-family: "Playfair Display", serif;
-  text-align: center;
-}
-
-#footer {
-  padding-top: 0px;
-  padding-left: 0px;
-}
-
 
 /* LAYOUT STUFF */
 
@@ -121,7 +82,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #262536;
+  background-color: #81A8BC;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -129,9 +90,9 @@ div.content {
 
 /* Sidebar links */
 .sidebar a {
-  font-family: "Playfair Display", serif;
+  font-family: "Baskerville", serif;
   display: block;
-  color: #d3d3da;
+  color: #D4E5F9;
   padding: 16px;
   padding-right: 30px;
   text-decoration: none;
@@ -140,9 +101,9 @@ div.content {
 }
 
 #colophon a {
-  font-family: "Playfair Display", serif;
+  font-family: "Baskerville", serif;
   font-size: 100%;
-  color: #d3d3da;
+  color: #D4E5F9;
   display: block;
   padding: 0px;
   padding-top: 0;
@@ -153,19 +114,19 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4c4a6c;
-  color: #d3d3da;
+  background-color: #4D749F;
+  color: #D4E5F9;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #393751;
-  color: #d3d3da;
+  background-color: #3B679A;
+  color: #D4E5F9;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
-  color: #d3d3da;
+  background-color: #3B679A;
+  color: #D4E5F9;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -182,22 +143,11 @@ div.content {
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: "baskerville"
+  color:#ABC2CE
   }
-}
 
-/* On screens that are less than 550px wide, center the headshot */
-@media screen and (max-width: 550px) {
-  #headshot {
-  width: 100%;
-  display: inline-block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 30px;
-  padding: 0;
-  float: right;
-}
 
-}
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
@@ -211,5 +161,7 @@ div.content {
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: "baskerville"
+  color:#ABC2CE
   }
 } 
